@@ -1,0 +1,28 @@
+package com.capg.prac;
+
+@FunctionalInterface
+interface show2{
+	void show();
+}
+
+interface Add{
+	int add(int a, int b);
+}
+
+public class MyLambda {
+	
+	public static void main(String[] args) {
+		
+		show2 s = () -> {
+			System.out.println("Hello");
+		};
+		s.show();
+		
+		Add aa = (int a, int b) -> {
+			return a+b;
+		};
+		
+		System.out.println(aa.add(10, 5));
+	}
+
+}

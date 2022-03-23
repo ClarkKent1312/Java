@@ -1,0 +1,34 @@
+package com.capg.work;
+
+public class Test {
+	public static String calcGST(String newString){
+	      String[] s = newString.split("[@,]+");
+//	      System.out.println(s[0]);
+	      //int GST = 0;
+	      //String[] newS = {};
+	      
+	      for (int i = 0; i<s.length ; i=i+2) {
+	            System.out.println(s[i]);
+	            System.out.println(s[i+1]);
+	      }
+	      
+	      
+//	      for (int i = 0; i< 6 ; i++){
+//	        String[] s1 = s[i].split(",");
+//	        System.out.println(s1[i]);
+//	        
+//	      }
+//	      
+	      
+	      String result = "";
+	      return result;
+	    }
+	
+	public static void main(String[] args) {
+		Test.calcGST("100,20@70,30@40,50");
+	}
+	
+	
+	
+	
+}

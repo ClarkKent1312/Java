@@ -1,0 +1,24 @@
+package com.capg.work;
+
+import java.util.*;
+
+public class MyHashmap {
+	 
+	public static void main(String[] args) {
+		HashMap<Integer, String> map = new HashMap<Integer, String>();
+	
+	map.put(1 , "Rohan");
+	map.put(2 , "Rohit");
+	map.put(3, "Mohit");
+	
+	map.forEach((k,v)-> System.out.println(k +" "+ v));
+	
+//	for (HashMap<Integer, String> m : map) {
+//		
+//	}
+	
+	}
+
+	
+	
+}

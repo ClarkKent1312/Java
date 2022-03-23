@@ -1,0 +1,24 @@
+package com.capg.work;
+
+public class Prac {
+
+	
+	
+	public static void main(String[] args) {
+		//widening type casting
+	
+		int a = 10;
+		long b = a;
+		
+		System.out.println(b);
+		
+//		narrowing type casting 
+		
+		float f = 40.33f;
+		
+		int g = (int)f;
+		
+		System.out.println(g);
+	}
+	
+}

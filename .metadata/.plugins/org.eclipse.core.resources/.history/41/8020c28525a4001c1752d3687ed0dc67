@@ -1,0 +1,23 @@
+package com.capg.work;
+
+public class Practice {
+
+	public static void main(String[] args) {
+//		final int a = 5;
+//		System.out.println(a);
+//		
+//		a = 10;
+//		System.out.println(a);
+		
+		
+		Practice p = new Practice();
+		System.out.println(p);
+		
+		
+	
+	
+	
+	
+	
+	}
+}

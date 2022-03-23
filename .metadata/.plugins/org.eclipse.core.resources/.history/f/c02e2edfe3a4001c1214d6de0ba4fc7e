@@ -1,0 +1,20 @@
+package com.capg.prac;
+
+class MySuper1{
+	public String name = "Aman";
+}
+
+public class MySuper {
+	public String name = "Rohan";
+	
+	public void display() {
+		System.out.println(name);
+		System.out.println(super.name);
+	}
+	
+	public static void main(String[] args) {
+		MySuper m = new MySuper();
+		m.display();
+	}
+
+}

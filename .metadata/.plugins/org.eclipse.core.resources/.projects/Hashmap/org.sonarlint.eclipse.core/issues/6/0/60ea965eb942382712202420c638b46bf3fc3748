@@ -1,0 +1,10 @@
+
+o	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8Éª”¨û/HyRMAJORZ
+CODE_SMELL
+‚
+java:S3457"KFormat specifiers or lambda should be used instead of string concatenation.(Æõï—þÿÿÿÿ8Èèˆ¨û/HrRMAJORZ
+CODE_SMELL
+f	java:S125"<This block of commented-out lines of code should be removed.(“Í»ÝHhRMAJORZ
+CODE_SMELL
+j	java:S106"9Replace this use of System.out or System.err by a logger.(œ…¦Ÿ8‡ÿ‘¨û/HtRMAJORZ
+CODE_SMELL

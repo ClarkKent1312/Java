@@ -1,0 +1,16 @@
+package com.capg.prac;
+
+interface show2{
+	void show();
+}
+
+public class MyLambda {
+	
+	public static void main(String[] args) {
+		
+		show2 s = () -> {
+			System.out.println("Hello");
+		};
+	}
+
+}
